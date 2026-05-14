@@ -1,43 +1,21 @@
 # Engineering Growth Lab
 
-A structured repository for documenting my completed programming projects and algorithm implementations.
+A focused code portfolio for documenting my completed programming projects and algorithm implementations.
 
 ## About This Repository
 
-This repository is used to organize and showcase my programming practice, completed mini projects, and algorithm problem solutions.
+This repository is used to organize and showcase my programming projects and algorithm problem solutions.
 
-The main goal is to build stronger software engineering skills through writing readable, maintainable, and testable code.  
-Instead of only recording learning notes, this repository focuses on concrete code implementations that can demonstrate my growth in computer science fundamentals and engineering ability.
+The goal is to build a clean and meaningful code portfolio that demonstrates my progress in software engineering, algorithms, and AI-oriented project development.
 
-## Focus Areas
-
-- Algorithm implementation
-- LeetCode-style problem solving
-- Python programming practice
-- C++ programming practice
-- Mini software engineering projects
-- AI-oriented engineering projects
-- Clean code structure
-- Reproducible project organization
+Instead of storing scattered notes or temporary practice files, this repository focuses on concrete code implementations that are readable, maintainable, and explainable.
 
 ## Repository Structure
 
 ```text
 engineering-growth-lab/
 ├── algorithms/
-│   ├── arrays/
-│   ├── strings/
-│   ├── hash-table/
-│   ├── stack-queue/
-│   ├── linked-list/
-│   ├── binary-search/
-│   ├── graph/
-│   └── dynamic-programming/
 ├── projects/
-│   ├── todo-cli/
-│   └── mini-search-engine/
-├── python-practice/
-├── cpp-practice/
 └── README.md
 ```
 
@@ -47,14 +25,7 @@ engineering-growth-lab/
 
 This directory stores algorithm problem solutions, including LeetCode-style problems and classic data structure implementations.
 
-Each problem folder may include:
-
-```text
-solution.py
-solution.cpp
-README.md
-test_solution.py
-```
+Each problem should preferably have its own folder.
 
 Recommended structure:
 
@@ -74,40 +45,40 @@ algorithms/
         └── README.md
 ```
 
+For each problem, the code should be clear enough to explain the main idea, edge cases, and time complexity.
+
 ### `projects/`
 
-This directory stores complete mini projects.
+This directory stores complete programming projects.
 
-Planned projects include:
+Each project should have its own independent folder and include a clear project structure.
+
+Recommended structure for each project:
 
 ```text
 projects/
-├── todo-cli/
-└── mini-search-engine/
+└── project-name/
+    ├── README.md
+    ├── src/
+    ├── tests/
+    ├── requirements.txt
+    └── main.py
 ```
 
-Each project should include its own:
+Each project README should include:
 
-```text
-README.md
-src/
-tests/
-requirements.txt
-```
+- Project overview
+- Main features
+- How to run
+- Project structure
+- Key implementation details
+- Future improvements
 
-### `python-practice/`
-
-This directory stores small Python programming exercises that are not large enough to become independent projects.
-
-### `cpp-practice/`
-
-This directory stores small C++ programming exercises, STL practice, and compilation examples.
-
-## Current Project Plan
+## Current Planned Projects
 
 ### 1. Todo CLI
 
-A command-line task management tool for practicing basic Python project structure.
+A command-line task management tool for practicing basic Python project structure and file-based data storage.
 
 Planned features:
 
@@ -140,7 +111,7 @@ Planned features:
 - Add README files for important projects
 - Add tests when appropriate
 - Avoid uploading code that I do not understand
-- Use AI tools for assistance, but independently understand and verify the final code
+- Use AI tools for assistance, but independently understand, verify, and explain the final code
 
 ## Commit Message Style
 
@@ -166,4 +137,10 @@ git commit -m "chore: reorganize repository structure"
 
 ## Long-Term Goal
 
-To build a clean and meaningful code portfolio that demonstrates my progress in algorithms, software engineering, and AI-oriented project development.
+To build a focused and meaningful code portfolio that clearly shows:
+
+- What projects I have completed
+- What algorithm problems I have solved
+- Whether my code is clear and organized
+- Whether I have consistent engineering practice
+- Whether I can independently understand and explain my implementations
