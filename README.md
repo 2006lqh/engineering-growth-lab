@@ -1,21 +1,33 @@
 # Engineering Growth Lab
 
-A focused code portfolio for documenting my completed programming projects and algorithm implementations.
+A focused code portfolio for documenting my programming projects and algorithm implementations.
 
 ## About This Repository
 
-This repository is used to organize and showcase my programming projects and algorithm problem solutions.
+This repository is used to organize and showcase my completed programming projects and algorithm practice.
 
-The goal is to build a clean and meaningful code portfolio that demonstrates my progress in software engineering, algorithms, and AI-oriented project development.
+The goal is to build a clean and maintainable code portfolio that demonstrates my progress in software engineering, algorithms, and AI-oriented project development.
 
-Instead of storing scattered notes or temporary practice files, this repository focuses on concrete code implementations that are readable, maintainable, and explainable.
+To keep the repository practical and sustainable, algorithm solutions are stored as code files with brief comments, while complete projects are organized with their own README files, source code, tests, and running instructions.
 
 ## Repository Structure
 
 ```text
 engineering-growth-lab/
 ├── algorithms/
+│   ├── python/
+│   │   ├── arrays/
+│   │   ├── strings/
+│   │   ├── hash-table/
+│   │   ├── stack-queue/
+│   │   ├── linked-list/
+│   │   ├── binary-search/
+│   │   ├── graph/
+│   │   └── dynamic-programming/
+│   └── cpp/
 ├── projects/
+│   ├── todo-cli/
+│   └── mini-search-engine/
 └── README.md
 ```
 
@@ -25,47 +37,52 @@ engineering-growth-lab/
 
 This directory stores algorithm problem solutions, including LeetCode-style problems and classic data structure implementations.
 
-Each problem should preferably have its own folder.
+To keep the structure lightweight, each solution is stored as a single code file.
 
-Recommended structure:
+Example:
 
 ```text
-algorithms/
-├── arrays/
-│   └── two-sum/
-│       ├── solution.py
-│       └── README.md
-├── binary-search/
-│   └── search-in-rotated-sorted-array/
-│       ├── solution.py
-│       └── README.md
-└── graph/
-    └── number-of-islands/
-        ├── solution.py
-        └── README.md
+algorithms/python/arrays/
+├── 0001_two_sum.py
+├── 0121_best_time_to_buy_and_sell_stock.py
+└── 0238_product_of_array_except_self.py
 ```
 
-For each problem, the code should be clear enough to explain the main idea, edge cases, and time complexity.
+Each solution file should include brief comments about:
+
+- Problem name
+- Category
+- Main idea
+- Time complexity
+- Space complexity
+
+Example:
+
+```python
+# LeetCode 1. Two Sum
+# Category: Array / Hash Table
+# Idea: Use a hash map to store visited numbers and find complements.
+# Time: O(n)
+# Space: O(n)
+```
 
 ### `projects/`
 
 This directory stores complete programming projects.
 
-Each project should have its own independent folder and include a clear project structure.
-
-Recommended structure for each project:
+Each project should have its own folder and may include:
 
 ```text
 projects/
 └── project-name/
     ├── README.md
+    ├── main.py
     ├── src/
     ├── tests/
-    ├── requirements.txt
-    └── main.py
+    └── requirements.txt
 ```
 
-Each project README should include:
+Project README files should explain:
 
 - Project overview
 - Main features
@@ -105,11 +122,11 @@ Planned features:
 
 ## Coding Principles
 
-- Write code that is readable and explainable
-- Keep each project organized and reproducible
-- Use meaningful commit messages
-- Add README files for important projects
-- Add tests when appropriate
+- Keep the repository clean and focused
+- Store algorithm solutions in a lightweight format
+- Maintain clear structure for complete projects
+- Use meaningful file names and commit messages
+- Add tests for important project modules when appropriate
 - Avoid uploading code that I do not understand
 - Use AI tools for assistance, but independently understand, verify, and explain the final code
 
@@ -118,7 +135,7 @@ Planned features:
 Recommended commit prefixes:
 
 ```text
-feat:      add a new feature
+feat:      add a new feature or algorithm solution
 fix:       fix a bug
 docs:      update documentation
 test:      add or update tests
@@ -129,6 +146,7 @@ chore:     update project structure or configuration
 Examples:
 
 ```bash
+git commit -m "feat: solve two sum with hash map"
 git commit -m "feat: implement basic tokenizer"
 git commit -m "test: add tokenizer unit tests"
 git commit -m "docs: update mini search engine README"
