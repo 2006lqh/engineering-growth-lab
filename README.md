@@ -1,6 +1,6 @@
 # Engineering Growth Lab
 
-A focused code portfolio for documenting my programming projects and algorithm implementations.
+A long-term code portfolio for documenting my programming projects and algorithm implementations.
 
 ## About This Repository
 
@@ -8,7 +8,7 @@ This repository is used to organize and showcase my completed programming projec
 
 The goal is to build a clean and maintainable code portfolio that demonstrates my progress in software engineering, algorithms, and AI-oriented project development.
 
-To keep the repository practical and sustainable, algorithm solutions are stored as code files with brief comments, while complete projects are organized with their own README files, source code, tests, and running instructions.
+Instead of following a fixed short-term schedule, this repository is designed to support flexible and continuous improvement over time. Algorithm solutions are stored as lightweight code files, while complete projects are organized with their own structure, documentation, and running instructions.
 
 ## Repository Structure
 
@@ -91,7 +91,7 @@ Project README files should explain:
 - Key implementation details
 - Future improvements
 
-## Current Planned Projects
+## Project Roadmap
 
 ### 1. Todo CLI
 
@@ -119,6 +119,30 @@ Planned features:
 - Unit tests
 - Command-line interface
 - Possible RAG-oriented extension
+
+### 3. Future AI-Oriented Project
+
+Potential directions:
+
+- RAG-based academic paper assistant
+- LLM coding assistant evaluation
+- Lightweight recommendation system
+- Model inference or deployment demo
+
+## Flexible Learning Plan
+
+This repository is maintained with a flexible long-term schedule.
+
+The focus is not on completing a fixed number of tasks in a fixed time period, but on consistent progress and meaningful code quality.
+
+Suggested rhythm:
+
+- Solve algorithm problems regularly
+- Build or improve one project at a time
+- Keep commits small and meaningful
+- Add documentation for important projects
+- Refactor code when necessary
+- Avoid uploading code that I do not understand
 
 ## Coding Principles
 
@@ -162,3 +186,5 @@ To build a focused and meaningful code portfolio that clearly shows:
 - Whether my code is clear and organized
 - Whether I have consistent engineering practice
 - Whether I can independently understand and explain my implementations
+
+This repository is intended to support future research, internship preparation, and graduate school applications in CS, AI, and software engineering-related fields.
