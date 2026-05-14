@@ -1,26 +1,24 @@
 # Engineering Growth Lab
 
-A structured repository for strengthening software engineering skills, algorithmic thinking, debugging, testing, and AI-oriented project development.
+A structured repository for documenting my completed programming projects and algorithm implementations.
 
 ## About This Repository
 
-This repository documents my 3-month engineering skill improvement plan and long-term CS practice.  
-It is designed to help me build stronger foundations in software engineering, algorithms, Git, Linux/WSL, testing, debugging, and project-based AI development.
+This repository is used to organize and showcase my programming practice, completed mini projects, and algorithm problem solutions.
 
-The goal is not only to write code that works, but to write code that is readable, testable, maintainable, and explainable.
+The main goal is to build stronger software engineering skills through writing readable, maintainable, and testable code.  
+Instead of only recording learning notes, this repository focuses on concrete code implementations that can demonstrate my growth in computer science fundamentals and engineering ability.
 
 ## Focus Areas
 
-- Software engineering fundamentals
-- Python project structure
-- C++ basics and compilation
-- Git and GitHub workflow
-- Linux / WSL development environment
-- Debugging and error analysis
-- Unit testing
 - Algorithm implementation
-- LeetCode local practice
-- AI-oriented mini projects
+- LeetCode-style problem solving
+- Python programming practice
+- C++ programming practice
+- Mini software engineering projects
+- AI-oriented engineering projects
+- Clean code structure
+- Reproducible project organization
 
 ## Repository Structure
 
@@ -35,82 +33,137 @@ engineering-growth-lab/
 │   ├── binary-search/
 │   ├── graph/
 │   └── dynamic-programming/
-├── python-practice/
-├── cpp-practice/
-├── mini-projects/
+├── projects/
 │   ├── todo-cli/
 │   └── mini-search-engine/
-├── debug-lab/
-├── tests/
-├── notes/
-│   ├── weekly-review.md
-│   ├── debug-log.md
-│   └── engineering-notes.md
+├── python-practice/
+├── cpp-practice/
 └── README.md
 ```
 
-## 3-Month Plan
+## Directory Guide
 
-### Month 1: Engineering Foundations
+### `algorithms/`
 
-- Set up WSL + VS Code workflow
-- Practice Git and GitHub workflow
-- Build small Python and C++ projects
-- Learn basic debugging and testing
-- Start local LeetCode practice
+This directory stores algorithm problem solutions, including LeetCode-style problems and classic data structure implementations.
 
-### Month 2: Main Engineering Project
-
-Main project:
+Each problem folder may include:
 
 ```text
-mini-search-engine
+solution.py
+solution.cpp
+README.md
+test_solution.py
 ```
+
+Recommended structure:
+
+```text
+algorithms/
+├── arrays/
+│   └── two-sum/
+│       ├── solution.py
+│       └── README.md
+├── binary-search/
+│   └── search-in-rotated-sorted-array/
+│       ├── solution.py
+│       └── README.md
+└── graph/
+    └── number-of-islands/
+        ├── solution.py
+        └── README.md
+```
+
+### `projects/`
+
+This directory stores complete mini projects.
+
+Planned projects include:
+
+```text
+projects/
+├── todo-cli/
+└── mini-search-engine/
+```
+
+Each project should include its own:
+
+```text
+README.md
+src/
+tests/
+requirements.txt
+```
+
+### `python-practice/`
+
+This directory stores small Python programming exercises that are not large enough to become independent projects.
+
+### `cpp-practice/`
+
+This directory stores small C++ programming exercises, STL practice, and compilation examples.
+
+## Current Project Plan
+
+### 1. Todo CLI
+
+A command-line task management tool for practicing basic Python project structure.
+
+Planned features:
+
+- Add tasks
+- List tasks
+- Mark tasks as completed
+- Delete tasks
+- Store data locally in JSON format
+
+### 2. Mini Search Engine
+
+A small local search engine project for practicing data structures, text processing, ranking, and engineering organization.
 
 Planned features:
 
 - Text preprocessing
 - Tokenization
 - Inverted index
-- Search query processing
-- Ranking
+- Keyword search
+- Top-K ranking
 - Unit tests
-- README documentation
-
-### Month 3: Engineering Upgrade
-
-Planned improvements:
-
-- Configuration files
-- Logging
-- Command-line arguments
-- Simple Web UI
-- Basic evaluation
-- RAG-oriented extension
+- Command-line interface
+- Possible RAG-oriented extension
 
 ## Coding Principles
 
-- Understand before coding
-- Design before implementation
-- Test before refactoring
-- Commit small and meaningful changes
-- Use AI as an assistant, not as a replacement for thinking
-- Keep code readable, modular, and explainable
+- Write code that is readable and explainable
+- Keep each project organized and reproducible
+- Use meaningful commit messages
+- Add README files for important projects
+- Add tests when appropriate
+- Avoid uploading code that I do not understand
+- Use AI tools for assistance, but independently understand and verify the final code
 
-## AI Usage Policy
+## Commit Message Style
 
-I use AI tools to support learning, debugging, and code review.  
-However, I aim to independently understand, modify, test, and explain every piece of code included in this repository.
+Recommended commit prefixes:
 
-## Weekly Checklist
+```text
+feat:      add a new feature
+fix:       fix a bug
+docs:      update documentation
+test:      add or update tests
+refactor:  improve code structure without changing behavior
+chore:     update project structure or configuration
+```
 
-- [ ] At least 3 meaningful commits
-- [ ] At least 4 LeetCode problems completed locally
-- [ ] At least 1 test file written
-- [ ] At least 1 debugging case recorded
-- [ ] README or notes updated
-- [ ] At least 1 coding session completed without AI assistance
+Examples:
+
+```bash
+git commit -m "feat: implement basic tokenizer"
+git commit -m "test: add tokenizer unit tests"
+git commit -m "docs: update mini search engine README"
+git commit -m "chore: reorganize repository structure"
+```
 
 ## Long-Term Goal
 
-To build strong engineering foundations for future AI/CS research, internships, and graduate study applications.
+To build a clean and meaningful code portfolio that demonstrates my progress in algorithms, software engineering, and AI-oriented project development.
